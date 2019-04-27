@@ -34,6 +34,6 @@ namespace StringMatching
         public static List<string> DependencySchema = new List<string> { "DependencyId", "CreatedDate", "CreatedBy" };
         public static List<string> HashSchema = new List<string> { "HashId", "CreatedDate", "CreatedBy" };
 
-        public static string SchemaString { get; } = "Schema";
+        public static string SchemaString { get; } = "Schema"; // this is the only change required
     } // end class SqlConstants_Slower
 } // end namespace StringMatching

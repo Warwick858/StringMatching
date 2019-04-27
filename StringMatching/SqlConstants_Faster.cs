@@ -28,6 +28,9 @@ using System.Collections.Generic;
 
 namespace StringMatching
 {
+    /// <summary>
+    /// This approach requires the schemas to be wrapped in a dictionary, but is much faster!  I would recommend this approach.
+    /// </summary>
     public static class SqlConstants_Faster
     {
         public static Dictionary<string, List<string>> Schemas { get; } = new Dictionary<string, List<string>>()
